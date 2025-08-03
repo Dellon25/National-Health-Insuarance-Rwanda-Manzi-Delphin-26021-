@@ -39,12 +39,14 @@
 ### ➡️ 1. Clean the Dataset
 We began by inspecting for missing values, inconsistent formats, and extreme outliers. String values were normalized, and outliers in numerical fields were capped using IQR.
 
-![Part 2 1.1 Handle missing values, inconsistent formats, and outliers](images/cleaning.png)
+<img width="758" height="268" alt="Part 2 1 1 Handle missing values, inconsistent formats, and outliers" src="https://github.com/user-attachments/assets/538d93eb-611a-4022-8f34-761415880031" />
+
 
 ### ➡️ 2. Apply Data Transformations
 Categorical values were encoded using LabelEncoder, and numerical features such as age, household size, and insurance value were scaled using StandardScaler to ensure modeling fairness.
 
-![Part 2 1.2 data transformations](images/transformation.png)
+<img width="996" height="717" alt="Part 2 1 2 data transformations" src="https://github.com/user-attachments/assets/366540b7-ba87-4aa8-8595-ed701d4d268c" />
+
 
 ---
 
@@ -53,18 +55,22 @@ Categorical values were encoded using LabelEncoder, and numerical features such 
 We analyzed central tendencies, distributions, and correlations between variables. This helped us detect relationships and understand variable behavior.
 
 #### Descriptive Statistics
-![Part 2 2.1 Generated descriptive statistics](images/descriptive.png)
+<img width="991" height="731" alt="Part 2 2 1 Generated descriptive statistics " src="https://github.com/user-attachments/assets/d9106d65-a689-4ca7-921e-9a7ecfca468d" />
+
 
 #### Distribution Visuals
 We used histograms and boxplots to observe feature spread and detect skews and group variances.
 
-![Part 2 2.2 Visualized distributions](images/distributions.png)  
-![Part 2 2.2 Boxplot of Numeric Features](images/boxplot.png)
+<img width="975" height="647" alt="Part 2 2 2 Visualized distributions" src="https://github.com/user-attachments/assets/37483448-5dca-4e17-a53d-47845ebe4754" />
+
+<img width="991" height="392" alt="Part 2 2 2 Boxplot of Numeric Features" src="https://github.com/user-attachments/assets/595cdebb-266a-4c13-952b-4f317819b2c6" />
+
 
 #### Correlation Analysis
 This heatmap revealed strong and weak linear relationships between numeric indicators, guiding feature selection.
 
-![Correlation Heatmap of Numeric Features](images/heatmap.png)
+<img width="980" height="730" alt="Correlation Heatmap of Numeric Features" src="https://github.com/user-attachments/assets/693fe0ce-06d0-4a6d-a2de-7d5fea1c8d97" />
+
 
 ---
 
@@ -75,12 +81,14 @@ Given the nature of the health indicators, we used **K-Means Clustering** to gro
 #### Optimal Cluster Count
 The elbow method was used to determine the best number of clusters (k).
 
-![Elbow Method for Optimal K](images/elbow.png)
+<img width="978" height="483" alt="Elbow Method for Optimal K" src="https://github.com/user-attachments/assets/77432a1a-d2df-462f-909a-3b11df509b72" />
+
 
 #### Cluster Visualization
 We plotted clusters to identify patterns of insurance coverage and access grouped by similarity.
 
-![Health Insurance Types Clustered by Coverage](images/clustering.png)
+<img width="980" height="583" alt="Health Insuarance Types Clustered by coverage" src="https://github.com/user-attachments/assets/3b0a2717-a029-473e-b2a7-897515dc30a0" />
+
 
 ---
 
@@ -126,8 +134,14 @@ We evaluated clustering using the **Silhouette Score**, which indicated good sep
 - AI Visual: Key influencers affecting insurance value
 - Bookmarks to toggle between views
 
+#### Problem Statement 
+
+<img width="1282" height="711" alt="Problem Statement" src="https://github.com/user-attachments/assets/4525502c-9cd8-43ff-8ea5-1a51411602e8" />
+
 #### 🌐 Final Dashboard
-![Dashboard Image](images/dashboard.png)
+
+<img width="1236" height="718" alt="Power Bi Dashboard" src="https://github.com/user-attachments/assets/1da1639f-deba-428a-80dd-a88ee515f70f" />
+
 
 ---
 
